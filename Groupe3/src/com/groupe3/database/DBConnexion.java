@@ -1,10 +1,10 @@
-package com.address.model;
+package com.groupe3.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import static com.address.model.Env.*;
+import static com.groupe3.database.Env.*;
 
 public class DBConnexion {
     //Connexion à la BDD
