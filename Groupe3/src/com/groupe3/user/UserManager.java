@@ -6,7 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class UserManager {
-    private static Connection connexion = com.address.model.DBConnexion.getConnexion();
+    private static Connection connexion = com.groupe3.database.DBConnexion.getConnexion();
 
     /**----------------------------
      Ajouter un utilisateur
