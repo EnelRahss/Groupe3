@@ -26,7 +26,7 @@ public class FormUser extends JDialog {
         //surcharger la méthode
         super(parent);
         //Donner un titre à la fenêtre
-        setTitle("Ma génial fenêtre");
+        setTitle("Ajouter un nouvel utilisateur");
         //setter le container
         setContentPane(jpMain);
         //sélectionner la taille de la fenêtre en pixel
@@ -35,6 +35,7 @@ public class FormUser extends JDialog {
         setModal(false);
         //indiquer si la fenêtre est visible ou pas au chargement
         setVisible(true);
+        setLocation(250,0);
 
 
         jbAdd.addActionListener(new ActionListener() {

@@ -11,12 +11,12 @@ public class Connexion extends JDialog{
     private JButton btConnexion;
     private JPanel jpConnexion;
 
-    public Connexion(JFrame parent) {
+    public Connexion(JDialog parent) {
         super(parent);
         setTitle("Connexion");
         setMinimumSize(new Dimension(300, 300));
         setContentPane(jpConnexion);
-        setLocationRelativeTo(parent);
+        setLocation(250,150);
         setModal(true);
         setVisible(true);
         btConnexion.addActionListener(new ActionListener() {

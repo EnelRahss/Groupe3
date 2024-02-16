@@ -29,7 +29,7 @@ public class FormHome extends JDialog {
         connecterUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                Connexion connexion = new Connexion(parent);
             }
         });
 
@@ -37,7 +37,7 @@ public class FormHome extends JDialog {
         ajouterUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                FormUser formUser = new FormUser(parent);
             }
         });
 
